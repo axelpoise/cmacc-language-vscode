@@ -1,0 +1,26 @@
+{
+    "name": "cmacc",
+    "displayName": "cmacc",
+    "description": "common accord",
+    "version": "0.0.1",
+    "publisher": "axel",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "cmacc",
+            "aliases": ["cmacc", "cmacc"],
+            "extensions": [".cmacc",".CMACC"],
+            "configuration": "./cmacc.configuration.json"
+        }],
+        "grammars": [{
+            "language": "cmacc",
+            "scopeName": "scope.cmacc",
+            "path": "./syntaxes/cmacc.tmLanguage"
+        }]
+    }
+}
